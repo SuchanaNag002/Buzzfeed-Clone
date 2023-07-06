@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Buzzfeed-Clone/static/css/main.9986ebf1.css",
+    "main.js": "/Buzzfeed-Clone/static/js/main.ccc2d58e.js",
+    "index.html": "/Buzzfeed-Clone/index.html",
+    "main.9986ebf1.css.map": "/Buzzfeed-Clone/static/css/main.9986ebf1.css.map",
+    "main.ccc2d58e.js.map": "/Buzzfeed-Clone/static/js/main.ccc2d58e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9986ebf1.css",
+    "static/js/main.ccc2d58e.js"
+  ]
+}
