@@ -1,4 +1,5 @@
 import React from "react";
+import {FcCheckmark} from "react-icons/fc"
 export default function QuestionBlock({
   question,
   quizItemId,
@@ -23,7 +24,12 @@ export default function QuestionBlock({
       onClick={handleClick}
       disabled={validPick}
     >
-      <img src={question.image} alt={question.alt} />
+      <div className="img-container">
+        <div className={chosenAnswerItems.includes(question.text)?"overlay":"not-overlay"}>
+         <div className="check" style={{fontSize:"3rem"}}><FcCheckmark/></div>
+        </div>
+        <img src={question.image} alt={question.alt} />
+      </div>
       <h3>{question.text}</h3>
       <p>
         <a href={question.image}>{question.credit} </a>
